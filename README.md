@@ -77,7 +77,8 @@ from scripts.model import initialize_model
 
 model = initialize_model(
     model_checkpoint="dmis-lab/biobert-v1.1",
-    ner_model_path="./path_to_ner_model"  # Optional
+    ner_model_path="./path_to_ner_model"
+    re_model_path="./path_to_re_model"
 )
 ```
 Loads a QA-capable BioBERT model and optionally transfers weights from a NER-trained encoder. Useful for biomedical transfer learning.
