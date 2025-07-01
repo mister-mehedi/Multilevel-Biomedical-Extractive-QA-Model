@@ -9,7 +9,7 @@ A powerful deep learning framework designed to enhance extractive Question Answe
 - 💊 **Domain-specific optimization** using [BioBERT v1.1](https://huggingface.co/dmis-lab/biobert-v1.1)
 - 🧠 **Multilevel metrics**: EM, F1, MRR, Lacc (Local Accuracy), Sacc (Sequence Accuracy)
 - 🔁 **Bootstrap training** for model ensembles or bagging strategies
-- ⚙️ Optional **NER model integration** to inject pretrained biomedical knowledge
+- ⚙️ **NER and RE model integration** to inject pretrained biomedical knowledge
 - 📊 Clean performance visualizations with detailed metric breakdowns
 
 
