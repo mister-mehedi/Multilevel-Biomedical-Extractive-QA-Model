@@ -51,7 +51,7 @@ python main.py
 This triggers a full pipeline:
 - Loads BioASQ-formatted .json data
 - Preprocesses it for training and validation
-- Initializes BioBERT (optionally loads NER encoder)
+- Initializes BioBERT (optionally loads NER & RE encoder)
 - Trains the QA model
 - Evaluates using rich QA metrics
 - Saves the model and results in checkpoints/
